@@ -1,0 +1,27 @@
+.todolist-container {
+    background-color: rgb(241, 227, 215);
+    margin-top: 2rem;
+    border-radius: 0.25rem;
+    padding: 1rem;
+    box-shadow: 0.2rem 0.2rem 1.5rem rgba(3, 3, 3, 0.329);
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.todos-container {
+    overflow: auto;
+    height: 90%;
+}
+
+.todo-item {
+    border-bottom: .05rem solid rgba(0, 0, 0, 0.082);
+    padding: 1rem 0;
+    cursor: pointer;
+}
+
+.todo-item-active {
+    text-decoration: line-through;
+    color: grey
+}
